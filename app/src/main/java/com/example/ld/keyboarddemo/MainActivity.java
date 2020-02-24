@@ -4,6 +4,7 @@ import android.inputmethodservice.KeyboardView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
@@ -26,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
 //                Utils.shared(MainActivity.this, edit).showKeyboard();
 //            }
 //        });
+        Log.e("MainActivity","尝试本地增加分支，推送远程");
     }
 }
